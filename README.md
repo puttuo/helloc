@@ -1,2 +1,0 @@
-# helloc
-Personal C playground.
