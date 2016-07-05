@@ -167,7 +167,7 @@ int process_input(Map *game) {
 
 int main(int argc, char *argv[] ) {
 	//simple way to setup the randomness
-	strand(time(NULL));
+	srand(time(NULL));
 
 	//make our map to work with
 	Map *game = NEW(Map, "The hall of the minotaur.");
@@ -175,7 +175,7 @@ int main(int argc, char *argv[] ) {
 	game->location->_(describe)(game->location);
 
 	while(process_input(game)) {
-		
+
 	}
 
 	return 0;
