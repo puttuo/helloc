@@ -22,7 +22,7 @@ struct Room {
 	struct Room *west;
 };
 
-typedef stuct Room Room;
+typedef struct Room Room;
 void *Room_move(void *self, Direction direction);
 int Room_attack(void *self, int damage);
 int Room_init(void *self);
