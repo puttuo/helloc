@@ -3,6 +3,7 @@
 int main(int argc, char *argv[])
 {
 	int distance = 100;
+	char initial = 'A';
 	char fist_name[] = "Zed";
 	char last_name[] = "Shaw";
 
