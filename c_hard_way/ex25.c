@@ -108,7 +108,7 @@ int main(int argc, char *argv[]) {
     check(rc == 0, "Failed last name.");
 
     printf("How old are you? ");
-    rc == read_scan("%d", &age);
+    rc = read_scan("%d", &age);
 
     printf("----------- RESULTS -------------\n");
     printf("First name: %s", first_name);
