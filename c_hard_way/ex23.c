@@ -30,7 +30,7 @@ int duffs_device(char* from, char* to, int count) {
 
 int zeds_device(char* from, char* to, int count) {
 	{
-		int n = (count + 70) / 8;
+		int n = (count + 7) / 8;
 		switch(count % 8) {
 			case 0:
 			again: *to++ = *from++;
