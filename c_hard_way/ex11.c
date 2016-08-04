@@ -12,6 +12,7 @@ int main(int argc, char *argv[]) {
 		"Califormia", "Oregon", "Washington", "Texas"
 	};
 
+	printf("length of states array: %d\n", (int)(sizeof(states)/sizeof(char*)));
 	int num_states = 4;
 	i = 0;
 	while(i<num_states) {
